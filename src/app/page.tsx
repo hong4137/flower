@@ -90,30 +90,34 @@ export default function Home() {
               {/* Card 1: Order */}
               <Link href="/order" className="aspect-square bg-primary rounded-xl border border-[#D4AF37] shadow-[0_10px_30px_rgba(0,50,0,0.05)] p-gutter flex flex-col justify-end relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
                 <div
-                  className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-overlay transition-transform duration-500 group-hover:scale-105"
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                   style={{
                     backgroundImage:
                       'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmNWhbSkTEO0mAZpDXWSYmwbi1Po-VwcXk6QOHLMNhaXytkltcV-cIz8Wmr7Yfq5h-BigU3bvjvINEgRWxiCwlgy55C8vCzcFh3oyv9I5BkKIb50Idsiz79dH-5fTGTC0wt3Xe8c97fZkpluEXCLaKfs7m4zSdaxW-mkNTVwd1HMHxdSb9bR9qXVSk8Buy_ysi4GxjSuRMc_DQyfhxcirxNckzTCB1mL6A0Kd3r4_H8CF3P6RUz1EnGgcgJMf2jBg-zq4vjWcShw")',
                   }}
-                ></div>
-                <div className="relative z-10 text-on-primary">
+                >
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div className="relative z-10">
                   <h4 className="text-headline-sm mb-stack-sm text-[#D4AF37]">맞춤형 꽃바구니 주문</h4>
-                  <p className="text-body-md opacity-90">Bespoke arrangements tailored to your sentiment.</p>
+                  <p className="text-body-md text-white opacity-90">Bespoke arrangements tailored to your sentiment.</p>
                 </div>
               </Link>
 
               {/* Card 2: Membership Board */}
               <Link href="/membership" className="aspect-square bg-primary rounded-xl border border-[#D4AF37] shadow-[0_10px_30px_rgba(0,50,0,0.05)] p-gutter flex flex-col justify-end relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
                 <div
-                  className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-overlay transition-transform duration-500 group-hover:scale-105"
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                   style={{
                     backgroundImage:
                       'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBR5kPbWh1QJbszUCMROLDn37Y1Z44NPNMPF7ydM6kRKn1AQlPdI7C6v6RtmbAmq06hXE75MEXuGbmgQoCXat15Gt0IFqtvJ2eqP6cHxOwseMBWfYYZ-uomxxWueLYEWUmZIaXKhxio5Wx2Hf1Ny4Rx2915_wLjnSwMiCc7yCSRf3XmHwqF69MDFTMIBqNCNaXZ8Qk8K9A97CKMMCAFa2wYKAVk6qw4aEgE-aIrLLhv0Ga_7SrvrpQVHOxawAqz8oCmx2ekqQ8dvA")',
                   }}
-                ></div>
-                <div className="relative z-10 text-on-primary">
+                >
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div className="relative z-10">
                   <h4 className="text-headline-sm mb-stack-sm text-[#D4AF37]">플라워 네트워킹 커뮤니티</h4>
-                  <p className="text-body-md opacity-90">Join our exclusive circle of botanical enthusiasts.</p>
+                  <p className="text-body-md text-white opacity-90">Join our exclusive circle of botanical enthusiasts.</p>
                 </div>
               </Link>
             </div>
