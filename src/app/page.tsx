@@ -40,7 +40,9 @@ export default function Home() {
           </div>
           <div className="relative z-10 text-center px-margin-mobile max-w-container-max mx-auto text-on-secondary">
             <h2 className="text-headline-xl-mobile md:text-headline-xl text-[#D4AF37] drop-shadow-lg max-w-4xl mx-auto leading-tight">
-              마음을 잇는 가장 확실한 방법, 티타임즈 화원
+              마음을 잇는 가장 확실한 방법,
+              <br />
+              티타임즈 화원
             </h2>
           </div>
         </section>
