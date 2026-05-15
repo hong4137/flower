@@ -15,7 +15,7 @@ export default function Home() {
             className="w-8 h-8 rounded-full border border-[#D4AF37]"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcpOQmf2aWr00RiY-2c6xpwiAIV5aPyY24vTcu3EI5ddxLQRFPrIsTG8P2JRPvXJ6iOMeGx58UMbZBgfAoUwO7AoO5XXHb8WDgXHSOOKNWksYiDX30DEeX2282NBmzsdGm3ywPzzKxVhYcPZYWefj6arz-r6YTaDt-tin8Iwk6VuvlmK75dBYedXHbPt2euha1ZhIyI7-TdjJxZEMgFuPEG6jlE5c2nF6a6r1yVUU6OOCZez0DwihMjcg9vWOOMCUHHqSqRmRJYg"
           />
-          <h1 className="text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+          <h1 className="text-headline-md text-[#D4AF37] tracking-tight">
             티타임즈 화원
           </h1>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div className="relative z-10 text-center px-margin-mobile max-w-container-max mx-auto text-on-secondary">
             <h2 className="text-headline-xl-mobile md:text-headline-xl text-[#D4AF37] drop-shadow-lg max-w-4xl mx-auto leading-tight">
-              마음을 잇는 가장 확실한 방법, Aurum Flora
+              마음을 잇는 가장 확실한 방법, 티타임즈 화원
             </h2>
           </div>
         </section>
