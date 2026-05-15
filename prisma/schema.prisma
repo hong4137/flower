@@ -1,0 +1,48 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id             String     @id @default(uuid())
+  name           String
+  email          String?    @unique
+  phone          String?    @unique
+  role           String     @default("USER") // USER, VIP, ADMIN
+  referralCode   String     @unique
+  referredById   String?
+  referredBy     User?      @relation("Referrals", fields: [referredById], references: [id])
+  referrals      User[]     @relation("Referrals")
+  orders         Order[]
+  events         Event[]
+  createdAt      DateTime   @default(now())
+}
+
+model Order {
+  id               String   @id @default(uuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id])
+  context          String   // 축하, 위로, 사과 등
+  recipientName    String
+  recipientPhone   String?
+  recommendedItems String   // 추천된 구성
+  totalPrice       Int
+  status           String   @default("PENDING") // PENDING, CONFIRMED, COMPLETED
+  createdAt        DateTime @default(now())
+}
+
+model Event {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  eventName   String   // 생일, 결혼기념일 등
+  eventDate   DateTime
+  notified    Boolean  @default(false) // 알림 전송 여부
+  createdAt   DateTime @default(now())
+}
