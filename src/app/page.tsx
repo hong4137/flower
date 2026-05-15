@@ -15,8 +15,8 @@ export default function Home() {
             className="w-8 h-8 rounded-full border border-[#D4AF37]"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcpOQmf2aWr00RiY-2c6xpwiAIV5aPyY24vTcu3EI5ddxLQRFPrIsTG8P2JRPvXJ6iOMeGx58UMbZBgfAoUwO7AoO5XXHb8WDgXHSOOKNWksYiDX30DEeX2282NBmzsdGm3ywPzzKxVhYcPZYWefj6arz-r6YTaDt-tin8Iwk6VuvlmK75dBYedXHbPt2euha1ZhIyI7-TdjJxZEMgFuPEG6jlE5c2nF6a6r1yVUU6OOCZez0DwihMjcg9vWOOMCUHHqSqRmRJYg"
           />
-          <h1 className="text-headline-md text-[#D4AF37] tracking-tight">
-            티타임즈 화원
+          <h1 className="text-headline-md text-[#E11D48] tracking-tight">
+            TTimes Flower
           </h1>
         </div>
         <div className="flex items-center gap-4">
@@ -128,7 +128,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-surface-container-highest dark:bg-inverse-surface w-full border-t border-outline-variant flat flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-stack-lg gap-gutter max-w-container-max mx-auto">
-        <div className="text-headline-sm text-primary dark:text-primary-fixed">Aurum Flora</div>
+        <div className="text-headline-sm text-primary dark:text-primary-fixed">TTimes Flower</div>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="#" className="text-label-caps text-on-surface-variant hover:text-secondary transition-colors">Collections</Link>
           <Link href="/admin" className="text-label-caps text-on-surface-variant hover:text-secondary transition-colors">Admin(CRM)</Link>
