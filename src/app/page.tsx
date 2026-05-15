@@ -94,8 +94,7 @@ export default function Home() {
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                   style={{
-                    backgroundImage:
-                      'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmNWhbSkTEO0mAZpDXWSYmwbi1Po-VwcXk6QOHLMNhaXytkltcV-cIz8Wmr7Yfq5h-BigU3bvjvINEgRWxiCwlgy55C8vCzcFh3oyv9I5BkKIb50Idsiz79dH-5fTGTC0wt3Xe8c97fZkpluEXCLaKfs7m4zSdaxW-mkNTVwd1HMHxdSb9bR9qXVSk8Buy_ysi4GxjSuRMc_DQyfhxcirxNckzTCB1mL6A0Kd3r4_H8CF3P6RUz1EnGgcgJMf2jBg-zq4vjWcShw")',
+                    backgroundImage: "url('/basket.png')",
                   }}
                 >
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
